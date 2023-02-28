@@ -1,0 +1,50 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.2)
+
+INFO  Version - HV000001: Hibernate Validator 6.2.0.Final
+INFO  PetClinicApplication - Starting PetClinicApplication v2.6.2 using Java 17.0.6 on MacBook-Pro.local with PID 2663 (/pet/target/spring-petclinic-rest-2.6.2.jar started by --redacted-- in /Users/Documents/Work/github.com/endorlabs/sbom-lab)
+DEBUG PetClinicApplication - Running with Spring Boot v2.6.2, Spring v5.3.14
+INFO  PetClinicApplication - The following profiles are active: hsqldb,spring-data-jpa
+INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 7 JPA repository interfaces.
+INFO  TomcatWebServer - Tomcat initialized with port(s): 9966 (http)
+INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9966"]
+INFO  StandardService - Starting service [Tomcat]
+INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  [/petclinic] - Initializing Spring embedded WebApplicationContext
+INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1035 ms
+INFO  HikariDataSource - HikariPool-1 - Starting...
+INFO  PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+INFO  HikariDataSource - HikariPool-1 - Start completed.
+INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  Version - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+INFO  UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 4e6f71af-d436-4817-9d8f-1233214c1f03
+
+INFO  DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e52a26b, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b41e1bf, org.springframework.security.web.header.HeaderWriterFilter@670342a2, org.springframework.security.web.authentication.logout.LogoutFilter@2d28fb02, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@486e9d1d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bda157e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e56b4d, org.springframework.security.web.session.SessionManagementFilter@1cd6b1bd, org.springframework.security.web.access.ExceptionTranslationFilter@61037caf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47df5041]
+INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-9966"]
+INFO  TomcatWebServer - Tomcat started on port(s): 9966 (http) with context path '/petclinic'
+INFO  PetClinicApplication - Started PetClinicApplication in 3.33 seconds (JVM running for 3.625)
+WARNING: jbom-1.2.1.jar not added to bootstrap class loader search: Illegal argument or not JAR file
+2023-02-27 09:38:47:962 TRACE --- [jbom] ==================================
+2023-02-27 09:38:47:962 TRACE --- [jbom] jbom attached
+2023-02-27 09:38:47:962 TRACE --- [jbom] Java vendor : Eclipse Adoptium
+2023-02-27 09:38:47:963 TRACE --- [jbom] Java version: 17.0.6
+2023-02-27 09:38:49:846 TRACE --- [jbom] Saving SBOM with 119 components to pet/jbom-2663.json
+2023-02-27 09:38:49:948 TRACE --- [jbom] jbom complete
+2023-02-27 09:38:49:948 TRACE --- [jbom] ==================================
+INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+INFO  HikariDataSource - HikariPool-1 - Shutdown completed.

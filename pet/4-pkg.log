@@ -1,0 +1,136 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< org.springframework.samples:spring-petclinic-rest >----------
+[INFO] Building spring-petclinic-rest 2.6.2
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default) @ spring-petclinic-rest ---
+[INFO] argLine set to -javaagent:/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/pet/target/jacoco.exec,excludes=**/org/springframework/samples/petclinic/rest/dto/**:**/org/springframework/samples/petclinic/rest/api/**
+[INFO] 
+[INFO] --- openapi-generator-maven-plugin:5.2.1:generate (default) @ spring-petclinic-rest ---
+[INFO] Generating with dryRun=false
+[INFO] Output directory (/pet/target/generated-sources/openapi) does not exist, or is inaccessible. No file (.openapi-generator-ignore) will be evaluated.
+[INFO] OpenAPI Generator: spring (server)
+[INFO] Generator 'spring' is considered stable.
+[INFO] ----------------------------------
+[WARNING] java8 option has been deprecated as it's set to true by default (JDK7 support has been deprecated)
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Invoker Package Name, originally not set, is now derived from api package name: org.springframework.samples.petclinic.rest
+[INFO] Processing operation failingRequest
+[INFO] Processing operation listOwners
+[INFO] Processing operation addOwner
+[INFO] Processing operation getOwner
+[INFO] Processing operation updateOwner
+[INFO] Processing operation deleteOwner
+[INFO] Processing operation addPetToOwner
+[INFO] Processing operation getOwnersPet
+[INFO] Processing operation updateOwnersPet
+[INFO] Processing operation addVisitToOwner
+[INFO] Processing operation listPetTypes
+[INFO] Processing operation addPetType
+[INFO] Processing operation getPetType
+[INFO] Processing operation updatePetType
+[INFO] Processing operation deletePetType
+[INFO] Processing operation listPets
+[INFO] Processing operation addPet
+[INFO] Processing operation getPet
+[INFO] Processing operation updatePet
+[INFO] Processing operation deletePet
+[INFO] Processing operation listVisits
+[INFO] Processing operation addVisit
+[INFO] Processing operation getVisit
+[INFO] Processing operation updateVisit
+[INFO] Processing operation deleteVisit
+[INFO] Processing operation listSpecialties
+[INFO] Processing operation addSpecialty
+[INFO] Processing operation getSpecialty
+[INFO] Processing operation updateSpecialty
+[INFO] Processing operation deleteSpecialty
+[INFO] Processing operation listVets
+[INFO] Processing operation addVet
+[INFO] Processing operation getVet
+[INFO] Processing operation updateVet
+[INFO] Processing operation deleteVet
+[INFO] Processing operation addUser
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/OwnerAllOfDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/OwnerDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/OwnerFieldsDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/PetAllOfDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/PetDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/PetFieldsDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/PetTypeAllOfDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/PetTypeDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/PetTypeFieldsDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/RestErrorDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/RoleDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/SpecialtyDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/UserDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/ValidationMessageDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/VetAllOfDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/VetDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/VetFieldsDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/VisitAllOfDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/VisitDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/dto/VisitFieldsDto.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/api/OopsApi.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/api/OwnersApi.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/api/PetsApi.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/api/PettypesApi.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/api/SpecialtiesApi.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/api/UsersApi.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/api/VetsApi.java
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/api/VisitsApi.java
+[INFO] writing file /pet/target/generated-sources/openapi/pom.xml
+[INFO] writing file /pet/target/generated-sources/openapi/README.md
+[INFO] writing file /pet/target/generated-sources/openapi/src/main/java/org/springframework/samples/petclinic/rest/api/ApiUtil.java
+[INFO] writing file /pet/target/generated-sources/openapi/.openapi-generator-ignore
+[INFO] writing file /pet/target/generated-sources/openapi/.openapi-generator/VERSION
+[INFO] writing file /pet/target/generated-sources/openapi/.openapi-generator/FILES
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.2.0:add-source (add-source) @ spring-petclinic-rest ---
+[INFO] Source directory: /pet/target/generated-sources/openapi/src/main/java added.
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.6.2:build-info (default) @ spring-petclinic-rest ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ spring-petclinic-rest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 4 resources
+[INFO] Copying 13 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-petclinic-rest ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 112 source files to /pet/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ spring-petclinic-rest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-petclinic-rest ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to /pet/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-petclinic-rest ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:report (report) @ spring-petclinic-rest ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ spring-petclinic-rest ---
+[INFO] Building jar: /pet/target/spring-petclinic-rest-2.6.2.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.6.2:repackage (repackage) @ spring-petclinic-rest ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.331 s
+[INFO] Finished at: 2023-02-27T09:38:24+01:00
+[INFO] ------------------------------------------------------------------------

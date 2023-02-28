@@ -1,0 +1,3812 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "3267d9c2-af47-4380-8ca2-905de75f46be",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-27T08:38:26Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "--redacted--",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  },
+  "components" : [
+    {
+      "name" : "spring-aop",
+      "version" : "5.3.14",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "953a41d016a5bc9d9e8ace3d90d499c9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f049146a55991e89c0f04b9624f1f69e1763d80f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-aop-5.3.14.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-aop-5.3.14.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:f049146a55991e89c0f04b9624f1f69e1763d80f"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.hibernate",
+      "name" : "hibernate-commons-annotations-5.1.2.Final",
+      "version" : "5.1.2.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2a2490b3eb8e7585a6a899d27d7ed43f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e59ffdbc6ad09eeb33507b39ffcf287679a498c8"
+        }
+      ],
+      "purl" : "pkg:maven/org.hibernate/hibernate-commons-annotations-5.1.2.Final@5.1.2.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "hibernate-commons-annotations-5.1.2.Final.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:e59ffdbc6ad09eeb33507b39ffcf287679a498c8"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "spring-webmvc",
+      "version" : "5.3.14",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "99d361df939ea9d45d63d1fe8f36ad44"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "beb6dc57abf6685878b824d8ab0af39ebd1cfbae"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-webmvc-5.3.14.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-webmvc-5.3.14.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:beb6dc57abf6685878b824d8ab0af39ebd1cfbae"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "springfox-swagger-common",
+      "version" : "3.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9561d63837e1c9c92788ec8a1f9f77f6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2e2fae840984cfcabfd50e1b4b1c23422135ba12"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "springfox-swagger-common-3.0.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/springfox-swagger-common-3.0.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:2e2fae840984cfcabfd50e1b4b1c23422135ba12"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "jakarta.persistence-api-2.2.3",
+      "version" : "2.2.3",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e0a655f398f8e68e0afebb0f71fba4e5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8f6ea5daedc614f07a3654a455660145286f024e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jakarta.persistence-api-2.2.3.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jakarta.persistence-api-2.2.3.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:8f6ea5daedc614f07a3654a455660145286f024e"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "aspectjweaver-1.9.7",
+      "version" : "1.9.7",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a4d97c5a2f94b8b5d132761a769e5eeb"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "158f5c255cd3e4408e795b79f7c3fbae9b53b7ca"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "aspectjweaver-1.9.7.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/aspectjweaver-1.9.7.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:158f5c255cd3e4408e795b79f7c3fbae9b53b7ca"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "springfox-core",
+      "version" : "3.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "177e816438eea19529ca6c9423c9fdfc"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7c3367ce577c8acd9bf64c74488c9269253516c9"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "springfox-core-3.0.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/springfox-core-3.0.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:7c3367ce577c8acd9bf64c74488c9269253516c9"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.glassfish",
+      "name" : "jakarta.annotation-api-1.3.5",
+      "version" : "1.3.5",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8b165cf58df5f8c2a222f637c0a07c97"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "59eb84ee0d616332ff44aba065f3888cf002cd2d"
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish/jakarta.annotation-api-1.3.5@1.3.5",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jakarta.annotation-api-1.3.5.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jakarta.annotation-api-1.3.5.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:59eb84ee0d616332ff44aba065f3888cf002cd2d"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.glassfish",
+      "name" : "jakarta.transaction-api-1.3.3",
+      "version" : "1.3.3",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "cc45726045cc9a0728f803f9db4c90c4"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c4179d48720a1e87202115fbed6089bdc4195405"
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish/jakarta.transaction-api-1.3.3@1.3.3",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jakarta.transaction-api-1.3.3.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jakarta.transaction-api-1.3.3.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:c4179d48720a1e87202115fbed6089bdc4195405"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "spring-tx",
+      "version" : "5.3.14",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0b2bacf1b32bbdd73753aafb4136f192"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "03d80a1e051f071e9cd42fc99698bf9022862b5c"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-tx-5.3.14.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-tx-5.3.14.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:03d80a1e051f071e9cd42fc99698bf9022862b5c"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.springframework.data",
+      "name" : "spring-data-jpa",
+      "version" : "2.6.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "50ddb96bd3bc08acf0376939595c6a9a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "bd08ea8db76c7c82397307dda2e253180c31b7ec"
+        }
+      ],
+      "purl" : "pkg:maven/org.springframework.data/spring-data-jpa@2.6.0",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-data-jpa-2.6.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-data-jpa-2.6.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:bd08ea8db76c7c82397307dda2e253180c31b7ec"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.springframework.data:spring-data-jpa:2.6.0"
+    },
+    {
+      "name" : "spring-aspects",
+      "version" : "5.3.14",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f41ab1c45453af3f6ff97f24c9886fe9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "bf5de7c1338c2684d834bef8f389ef3d747f9f56"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-aspects-5.3.14.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-aspects-5.3.14.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:bf5de7c1338c2684d834bef8f389ef3d747f9f56"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "com.sun.istack",
+      "name" : "istack-commons-runtime",
+      "version" : "3.0.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1952bd76321f8580cfaa57e332a68287"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "cbbe1a62b0cc6c85972e99d52aaee350153dc530"
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "istack-commons-runtime-3.0.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/istack-commons-runtime-3.0.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:cbbe1a62b0cc6c85972e99d52aaee350153dc530"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.sun.istack:istack-commons-runtime:3.0.12"
+    },
+    {
+      "name" : "tomcat-embed-core-9.0.56",
+      "version" : "9.0.56",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4a9b9d1046f040407d8fcb2badb6a908"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7c8e0008564c644beec976ab115e2670bb4d7003"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "tomcat-embed-core-9.0.56.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/tomcat-embed-core-9.0.56.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:7c8e0008564c644beec976ab115e2670bb4d7003"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "com.sun.activation",
+      "name" : "jakarta.activation",
+      "version" : "1.2.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0b8bee3bf29b9a015f8b992035581a7c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "74548703f9851017ce2f556066659438019e7eb5"
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.activation/jakarta.activation@1.2.2",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jakarta.activation-1.2.2.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jakarta.activation-1.2.2.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:74548703f9851017ce2f556066659438019e7eb5"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.sun.activation:jakarta.activation:1.2.2"
+    },
+    {
+      "name" : "spring-security-config",
+      "version" : "5.6.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "7da7cfde92e5b120618e7dea818e7934"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9dad5eb59d37caddfa90752e034541ecd0ca9632"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-security-config-5.6.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-security-config-5.6.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:9dad5eb59d37caddfa90752e034541ecd0ca9632"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "spring-jcl",
+      "version" : "5.3.14",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "dd81ad7cd0aa5b6f0225d6a0341edd9a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ffcf745ed5ba32930771378316fd08e97986bec2"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-jcl-5.3.14.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-jcl-5.3.14.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:ffcf745ed5ba32930771378316fd08e97986bec2"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.glassfish.jaxb",
+      "name" : "txw2",
+      "version" : "2.3.5",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "67005a4cf5ee9cfd82edec1bdbecb32b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ec8930fa62e7b1758b1664d135f50c7abe86a4a3"
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jaxb/txw2@2.3.5",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "txw2-2.3.5.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/txw2-2.3.5.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:ec8930fa62e7b1758b1664d135f50c7abe86a4a3"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.glassfish.jaxb:txw2:2.3.5"
+    },
+    {
+      "name" : "spring-web",
+      "version" : "5.3.14",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "335a7c9a99e70ae8b359be8430d3e735"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "801d96f3914ace2e347ee3f6d29e21073e4f50ed"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-web-5.3.14.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-web-5.3.14.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:801d96f3914ace2e347ee3f6d29e21073e4f50ed"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "spring-expression",
+      "version" : "5.3.14",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1d268dba90b89964d97254bae133a431"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5cd4c568522b7084afac5d2ac6cb945b797b3f16"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-expression-5.3.14.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-expression-5.3.14.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:5cd4c568522b7084afac5d2ac6cb945b797b3f16"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "spring-core",
+      "version" : "5.3.14",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b9d1f2454c4b7d94c058026d272dfc3c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d87ad19f9d8b9a3f1a143db5a2be34c61751aaa2"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-core-5.3.14.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-core-5.3.14.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:d87ad19f9d8b9a3f1a143db5a2be34c61751aaa2"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "tomcat-embed-websocket-9.0.56",
+      "version" : "9.0.56",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "11ac79336e580aeaaf5fccc8d99e9414"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d84be683a5d47e820d077db1d511181c7db9e4e9"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "tomcat-embed-websocket-9.0.56.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/tomcat-embed-websocket-9.0.56.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:d84be683a5d47e820d077db1d511181c7db9e4e9"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "jakarta.validation-api-2.0.2",
+      "version" : "2.0.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "77501d529c1928c9bac2500cc9f93fb0"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5eacc6522521f7eacb081f95cee1e231648461e7"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jakarta.validation-api-2.0.2.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jakarta.validation-api-2.0.2.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:5eacc6522521f7eacb081f95cee1e231648461e7"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "swagger-models",
+      "version" : "2.1.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d46f8391f46a9e89dcbbf063c8ba6a6d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e7edeed6456a16d707542c003af03a594ecafe3a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "swagger-models-2.1.2.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/swagger-models-2.1.2.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:e7edeed6456a16d707542c003af03a594ecafe3a"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:swagger-models:2.1.2"
+    },
+    {
+      "name" : "Standard runtime",
+      "version" : "2.5.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f94c91b0816ab38e387f3de5682ed435"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0d8ec10f8ed2d9ac8c400208f4f78a546b116afe"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "hsqldb-2.5.2.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/hsqldb-2.5.2.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:0d8ec10f8ed2d9ac8c400208f4f78a546b116afe"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.mapstruct",
+      "name" : "mapstruct-processor",
+      "version" : "1.4.1.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b2c13fbcb2328ad58fba2238b445fc70"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a177f0daf39b807f19906fc3a7c6af8985bd8c4a"
+        }
+      ],
+      "purl" : "pkg:maven/org.mapstruct/mapstruct-processor@1.4.1.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "mapstruct-processor-1.4.1.Final.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/mapstruct-processor-1.4.1.Final.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:a177f0daf39b807f19906fc3a7c6af8985bd8c4a"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.mapstruct:mapstruct-processor:1.4.1.Final"
+    },
+    {
+      "name" : "springfox-swagger-ui",
+      "version" : "3.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5f0f33ea8f709abf2465a31644fe0afb"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1e665fbe22148f7c36fa8a08e515a0047cd4390b"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "springfox-swagger-ui-3.0.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/springfox-swagger-ui-3.0.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:1e665fbe22148f7c36fa8a08e515a0047cd4390b"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "logback-core",
+      "version" : "1.2.9",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e0e576b4001e1c99e551655b3fcbacbf"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "cdaca0cf922c5791a8efa0063ec714ca974affe3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "logback-core-1.2.9.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/logback-core-1.2.9.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:cdaca0cf922c5791a8efa0063ec714ca974affe3"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:logback-core:1.2.9"
+    },
+    {
+      "name" : "spring-orm",
+      "version" : "5.3.14",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "13fb3663deac6f4a60d25c16981a55f7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5ec15c098a56205ff77c7792e9dad30f5be16b5a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-orm-5.3.14.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-orm-5.3.14.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:5ec15c098a56205ff77c7792e9dad30f5be16b5a"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.apache.logging.log4j",
+      "name" : "log4j-api",
+      "version" : "2.17.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "935fcbd8c8273c0a4f1652de53493050"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "bbd791e9c8c9421e45337c4fe0a10851c086e36c"
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.0",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "log4j-api-2.17.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/log4j-api-2.17.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:bbd791e9c8c9421e45337c4fe0a10851c086e36c"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.apache.logging.log4j:log4j-api:2.17.0"
+    },
+    {
+      "group" : "com.fasterxml.jackson.module",
+      "name" : "jackson-module-parameter-names",
+      "version" : "2.13.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e230a12069ffd5d378d5ac130f5fc561"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "cbeec2259213c555ef451a2e05f35ed1dbfbf799"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.13.1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jackson-module-parameter-names-2.13.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jackson-module-parameter-names-2.13.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:cbeec2259213c555ef451a2e05f35ed1dbfbf799"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.1"
+    },
+    {
+      "group" : "org.glassfish",
+      "name" : "jaxb-api",
+      "version" : "2.3.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ffa4ea6fada02493779bcd7f04f11ea3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "99f802e0cb3e953ba3d6e698795c4aeb98d37c48"
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish/jaxb-api@2.3.0",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jaxb-api-2.3.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jaxb-api-2.3.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:99f802e0cb3e953ba3d6e698795c4aeb98d37c48"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.glassfish:jaxb-api:2.3.0"
+    },
+    {
+      "group" : "org.jboss",
+      "name" : "jandex",
+      "version" : "2.2.3.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "721b5868cfbb718dd97facc96929dde8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d3865101f0666b63586683bd811d754517f331ab"
+        }
+      ],
+      "purl" : "pkg:maven/org.jboss/jandex@2.2.3.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jandex-2.2.3.Final.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jandex-2.2.3.Final.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:d3865101f0666b63586683bd811d754517f331ab"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.jboss:jandex:2.2.3.Final"
+    },
+    {
+      "group" : "jakarta.activation",
+      "name" : "jakarta.activation-api",
+      "version" : "1.2.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1cbb480310fa1987f9db7a3ed7118af7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "99f53adba383cb1bf7c3862844488574b559621f"
+        }
+      ],
+      "purl" : "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jakarta.activation-api-1.2.2.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jakarta.activation-api-1.2.2.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:99f53adba383cb1bf7c3862844488574b559621f"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "jakarta.activation:jakarta.activation-api:1.2.2"
+    },
+    {
+      "name" : "tomcat-embed-el-9.0.56",
+      "version" : "9.0.56",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "918b954b52ec522cd79a28bb08f5c3c6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8e4f28f714693ad4e158e61f41371d4e4c6b4e23"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "tomcat-embed-el-9.0.56.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/tomcat-embed-el-9.0.56.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:8e4f28f714693ad4e158e61f41371d4e4c6b4e23"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "spring-jdbc",
+      "version" : "5.3.14",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3ef2deb22cb6dbfb75f903c6ea72710f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f209e8d165dbcfc018aa4f741fbe75844eb45ff8"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-jdbc-5.3.14.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-jdbc-5.3.14.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:f209e8d165dbcfc018aa4f741fbe75844eb45ff8"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "Spring Boot AutoConfigure",
+      "version" : "2.6.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "75c98cd9186a3e4fe0d3a0fa6afacdd9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7c91bce101d3f796cccbc1a6744c1ea389fff73f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-boot-autoconfigure-2.6.2.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-boot-autoconfigure-2.6.2.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:7c91bce101d3f796cccbc1a6744c1ea389fff73f"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "spring-beans",
+      "version" : "5.3.14",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "04f9dc60a62319c97f140b8ebc98f797"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "24cc27af89edc1581a57bb15bc160d2353f40a0e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-beans-5.3.14.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-beans-5.3.14.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:24cc27af89edc1581a57bb15bc160d2353f40a0e"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.springframework.data",
+      "name" : "spring-data-commons",
+      "version" : "2.6.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bcf27a3e9c58cf484184ae6dda921b55"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5a9afaa6e0a4cd74183a794f467c9b4a546b4cbe"
+        }
+      ],
+      "purl" : "pkg:maven/org.springframework.data/spring-data-commons@2.6.0",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-data-commons-2.6.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-data-commons-2.6.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:5a9afaa6e0a4cd74183a794f467c9b4a546b4cbe"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.springframework.data:spring-data-commons:2.6.0"
+    },
+    {
+      "name" : "spring-security-crypto",
+      "version" : "5.6.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6397cc4645ca93007e61b523ab9b7782"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b9dc3cc09643c0451a35bdc9327e80c4f5dfd354"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-security-crypto-5.6.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-security-crypto-5.6.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:b9dc3cc09643c0451a35bdc9327e80c4f5dfd354"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "spring-context",
+      "version" : "5.3.14",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "731eee1b78fa01375de10fd95b84455d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ce6042492f042131f602bdc83fcb412b142bdac5"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-context-5.3.14.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-context-5.3.14.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:ce6042492f042131f602bdc83fcb412b142bdac5"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "spring-retry-1.3.1",
+      "version" : "1.3.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "caf044c434e369827c7963aca343cff3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f8644c86f2be54623c3b336a56b54216841a3f22"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-retry-1.3.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-retry-1.3.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:f8644c86f2be54623c3b336a56b54216841a3f22"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "com.fasterxml",
+      "name" : "ClassMate",
+      "version" : "1.5.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e91fcd30ba329fd1b0b6dc5321fd067c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3fe0bed568c62df5e89f4f174c101eab25345b6c"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml/ClassMate@1.5.1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "classmate-1.5.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/classmate-1.5.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:3fe0bed568c62df5e89f4f174c101eab25345b6c"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "springfox-data-rest",
+      "version" : "3.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d219b4ab25319ccdfba9b53c741e2f5c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "40f5e834d6696ae1d3212fa5a2d5e1ec406bedc0"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "springfox-data-rest-3.0.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/springfox-data-rest-3.0.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:40f5e834d6696ae1d3212fa5a2d5e1ec406bedc0"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "Spring Boot",
+      "version" : "2.6.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "fb8e372b32de62fcb54e31bad9272b43"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "bbf59f411320da665411692359ff511315d0ff91"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-boot-2.6.2.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-boot-2.6.2.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:bbf59f411320da665411692359ff511315d0ff91"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.latencyutils",
+      "name" : "LatencyUtils",
+      "version" : "2.0.3",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2ad12e1ef7614cecfb0483fa9ac6da73"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "769c0b82cb2421c8256300e907298a9410a2a3d3"
+        }
+      ],
+      "purl" : "pkg:maven/org.latencyutils/LatencyUtils@2.0.3",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "LatencyUtils-2.0.3.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/LatencyUtils-2.0.3.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:769c0b82cb2421c8256300e907298a9410a2a3d3"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.latencyutils:LatencyUtils:2.0.3"
+    },
+    {
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-databind",
+      "version" : "2.13.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "15699c52197c95cd66fb722ac93fc07c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "698b2d2b15d9a1b7aae025f1d9f576842285e7f6"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jackson-databind-2.13.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jackson-databind-2.13.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:698b2d2b15d9a1b7aae025f1d9f576842285e7f6"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.core:jackson-databind:2.13.1"
+    },
+    {
+      "name" : "springfox-oas",
+      "version" : "3.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ad8d92b8eb2eb04ca001e3e70cf75a0f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e7bc9c1319cf1b64ae714a249c3db3b8fe01e42b"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "springfox-oas-3.0.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/springfox-oas-3.0.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:e7bc9c1319cf1b64ae714a249c3db3b8fe01e42b"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "springfox-spring-webflux",
+      "version" : "3.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1cbb459b5a24a079befd6750f5c4df1e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "efccbcfe1d23f2ba520bd87cc156bf2b81f3568e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "springfox-spring-webflux-3.0.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/springfox-spring-webflux-3.0.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:efccbcfe1d23f2ba520bd87cc156bf2b81f3568e"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.jboss.logging",
+      "name" : "jboss-logging",
+      "version" : "3.4.2.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b050c93a9bfbcd28546cec7511a82e9a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e517b8a93dd9962ed5481345e4d262fdd47c4217"
+        }
+      ],
+      "purl" : "pkg:maven/org.jboss.logging/jboss-logging@3.4.2.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jboss-logging-3.4.2.Final.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jboss-logging-3.4.2.Final.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:e517b8a93dd9962ed5481345e4d262fdd47c4217"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.jboss.logging:jboss-logging:3.4.2.Final"
+    },
+    {
+      "name" : "spring-plugin-metadata",
+      "version" : "2.0.0.RELEASE",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6ca48881279237978de209a68c25599f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6fb3a1fc0f05dc826687b7686ad8a5960ecdd57c"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-plugin-metadata-2.0.0.RELEASE.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-plugin-metadata-2.0.0.RELEASE.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:6fb3a1fc0f05dc826687b7686ad8a5960ecdd57c"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:spring-plugin-metadata:2.0.0.RELEASE"
+    },
+    {
+      "name" : "byte-buddy-dep",
+      "version" : "1.11.22",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a3f78063338fae42edff11c2d7503a76"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8b4c7fa5562a09da1c2a9ab0873cb51f5034d83f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "byte-buddy-1.11.22.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/byte-buddy-1.11.22.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:8b4c7fa5562a09da1c2a9ab0873cb51f5034d83f"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:byte-buddy-dep:1.11.22"
+    },
+    {
+      "group" : "org.hibernate",
+      "name" : "hibernate-core",
+      "version" : "5.6.3.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "7f938eeda4bf347377081bb556c0632f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a2420e0a2c9c168c029584aecf6a5b9a2475cd10"
+        }
+      ],
+      "purl" : "pkg:maven/org.hibernate/hibernate-core@5.6.3.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "hibernate-core-5.6.3.Final.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/hibernate-core-5.6.3.Final.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:a2420e0a2c9c168c029584aecf6a5b9a2475cd10"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.glassfish.jaxb",
+      "name" : "jaxb-runtime",
+      "version" : "2.3.5",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2d3790292a30333a14b7fb1143864a9c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a169a961a2bb9ac69517ec1005e451becf5cdfab"
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.5",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jaxb-runtime-2.3.5.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jaxb-runtime-2.3.5.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:a169a961a2bb9ac69517ec1005e451becf5cdfab"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.glassfish.jaxb:jaxb-runtime:2.3.5"
+    },
+    {
+      "name" : "jul-to-slf4j",
+      "version" : "1.7.32",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "cf36bbee73d82b6b96a6414ef9f54df1"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8a055c04ab44e8e8326901cadf89080721348bdb"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jul-to-slf4j-1.7.32.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jul-to-slf4j-1.7.32.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:8a055c04ab44e8e8326901cadf89080721348bdb"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:jul-to-slf4j:1.7.32"
+    },
+    {
+      "group" : "org.yaml",
+      "name" : "snakeyaml",
+      "version" : "1.29",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5bdf841bc5abda0507fa5ce91c44cc86"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6d0cdafb2010f1297e574656551d7145240f6e25"
+        }
+      ],
+      "purl" : "pkg:maven/org.yaml/snakeyaml@1.29",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "snakeyaml-1.29.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/snakeyaml-1.29.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:6d0cdafb2010f1297e574656551d7145240f6e25"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.yaml:snakeyaml:1.29"
+    },
+    {
+      "name" : "springfox-swagger2",
+      "version" : "3.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "eedf7bdba06b0f68907cbf56fac33e6b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7bcb18d496576eff76ef7bb72684e149cbb75c1d"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "springfox-swagger2-3.0.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/springfox-swagger2-3.0.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:7bcb18d496576eff76ef7bb72684e149cbb75c1d"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-annotations",
+      "version" : "2.13.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9e2bb0894ba131c20c874331c9c04adc"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1cbcbe4623113e6af92ccaa89884a345270f1a87"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jackson-annotations-2.13.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jackson-annotations-2.13.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:1cbcbe4623113e6af92ccaa89884a345270f1a87"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.core:jackson-annotations:2.13.1"
+    },
+    {
+      "name" : "springfox-spring-web",
+      "version" : "3.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4d5902809c88fc4a728583f899479873"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a76f2fbe805bfd2798e20dc8f2cfbfad554d52da"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "springfox-spring-web-3.0.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/springfox-spring-web-3.0.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:a76f2fbe805bfd2798e20dc8f2cfbfad554d52da"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "spring-security-core",
+      "version" : "5.6.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "65912ff4cffd66f96bf16cd6b1a8061e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f8d2fc6d172264946f909d1b61ce8a18b50d655f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-security-core-5.6.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-security-core-5.6.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:f8d2fc6d172264946f909d1b61ce8a18b50d655f"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "com.fasterxml.jackson.datatype",
+      "name" : "jackson-datatype-jsr310",
+      "version" : "2.13.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "830d1ba0b25d43b47c31fbef50d57cf7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1ece5a87b59701328215e0083448b4d451857cbd"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.13.1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jackson-datatype-jsr310-2.13.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jackson-datatype-jsr310-2.13.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:1ece5a87b59701328215e0083448b4d451857cbd"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.1"
+    },
+    {
+      "name" : "springfox-schema",
+      "version" : "3.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "15221503ce9eabdea1ed5c497ee08eea"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "32c5d6965617830ef6480fadb9030008945bcd9c"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "springfox-schema-3.0.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/springfox-schema-3.0.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:32c5d6965617830ef6480fadb9030008945bcd9c"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.apache.logging.log4j",
+      "name" : "log4j-to-slf4j",
+      "version" : "2.17.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a0ff4b3bd7936ca313dc29033e85bbd6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e50b82411b9ce9c204c938509f914b2bb887168b"
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.17.0",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "log4j-to-slf4j-2.17.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/log4j-to-slf4j-2.17.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:e50b82411b9ce9c204c938509f914b2bb887168b"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.apache.logging.log4j:log4j-to-slf4j:2.17.0"
+    },
+    {
+      "group" : "org.postgresql",
+      "name" : "PostgreSQL JDBC Driver",
+      "version" : "42.3.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "30299cd5ee3f86eb748b6cc1157df484"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9ca7df660e875b91c78e3d1608d4d7469ad3470c"
+        }
+      ],
+      "purl" : "pkg:maven/org.postgresql/PostgreSQL%20JDBC%20Driver@42.3.1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "postgresql-42.3.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/postgresql-42.3.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:9ca7df660e875b91c78e3d1608d4d7469ad3470c"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "spring-plugin-core",
+      "version" : "2.0.0.RELEASE",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a89cd7b77db3ed7d0c9ea71ee9784e2e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "95fc8c13037630f4aba9c51141f535becec00fe6"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-plugin-core-2.0.0.RELEASE.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-plugin-core-2.0.0.RELEASE.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:95fc8c13037630f4aba9c51141f535becec00fe6"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:spring-plugin-core:2.0.0.RELEASE"
+    },
+    {
+      "name" : "io.micrometer#micrometer-core;1.8.1",
+      "version" : "1.8.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5afa2d7df28634a16ec59066ca301c93"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ce4042438c3ed2e156cc180fff3a67efd419c546"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "micrometer-core-1.8.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/micrometer-core-1.8.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:ce4042438c3ed2e156cc180fff3a67efd419c546"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.glassfish",
+      "name" : "javax.annotation-api-1.3.2",
+      "version" : "1.3.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2ab1973eefffaa2aeec47d50b9e40b9d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "934c04d3cfef185a8008e7bf34331b79730a9d43"
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish/javax.annotation-api-1.3.2@1.3.2",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "javax.annotation-api-1.3.2.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/javax.annotation-api-1.3.2.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:934c04d3cfef185a8008e7bf34331b79730a9d43"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "com.fasterxml.jackson.datatype",
+      "name" : "jackson-datatype-jdk8",
+      "version" : "2.13.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "cdf2f3f2feef0be46e143f05378bafd2"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8ecfa9bcd714269fdf22c33f9fd00d0643bd0e21"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.13.1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jackson-datatype-jdk8-2.13.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jackson-datatype-jdk8-2.13.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:8ecfa9bcd714269fdf22c33f9fd00d0643bd0e21"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.1"
+    },
+    {
+      "name" : "checker-qual-3.5.0",
+      "version" : "3.5.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4464def1ed5c10f248ebfe1bccbedf1a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2f50520c8abea66fbd8d26e481d3aef5c673b510"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "checker-qual-3.5.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/checker-qual-3.5.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:2f50520c8abea66fbd8d26e481d3aef5c673b510"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "com.mysql",
+      "name" : "MySQL Connector/J",
+      "version" : "8.0.27",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "32d166ff407fb9ada81b76e0b1cac3a9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f1da9f10a3de6348725a413304aab6d0aa04f923"
+        }
+      ],
+      "purl" : "pkg:maven/com.mysql/MySQL%20Connector%2FJ@8.0.27",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "mysql-connector-java-8.0.27.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/mysql-connector-java-8.0.27.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:f1da9f10a3de6348725a413304aab6d0aa04f923"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "Spring Boot Actuator",
+      "version" : "2.6.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "826e947d5787566a4dca3b3471d4cc11"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f0a9db63d59be9156e0223fa5b2064266198c697"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-boot-actuator-2.6.2.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-boot-actuator-2.6.2.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:f0a9db63d59be9156e0223fa5b2064266198c697"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "swagger-annotations",
+      "version" : "2.1.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "629255d4a51b8228e519d8c308b24286"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d407a33aa71444802c640080eb4d5f499b027f96"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "swagger-annotations-2.1.2.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/swagger-annotations-2.1.2.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:d407a33aa71444802c640080eb4d5f499b027f96"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:swagger-annotations:2.1.2"
+    },
+    {
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-core",
+      "version" : "2.13.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b5cf9290dc96e215e77f274794d5238e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "51ae921a2ed1e06ca8876f12f32f265e83c0b2b8"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jackson-core-2.13.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jackson-core-2.13.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:51ae921a2ed1e06ca8876f12f32f265e83c0b2b8"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.core:jackson-core:2.13.1"
+    },
+    {
+      "name" : "Spring Boot Loader Tools",
+      "version" : "2.6.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "cf7eb46681167f5bc99d4cd6afd72cbf"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "95f8a94acad93228895242b0bd5fa97e85529fd6"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-boot-jarmode-layertools-2.6.2.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-boot-jarmode-layertools-2.6.2.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:95f8a94acad93228895242b0bd5fa97e85529fd6"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "springfox-spi",
+      "version" : "3.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "011a5c2e6f8d203358beb981a1137971"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "bae0b820d4b5a922063d34a42aaf4f763308b828"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "springfox-spi-3.0.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/springfox-spi-3.0.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:bae0b820d4b5a922063d34a42aaf4f763308b828"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "springfox-spring-webmvc",
+      "version" : "3.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8eb674eefd9c462ad6e9c0320ed8463a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7ed22363fdfd651cd811c0b2391f16bddb91db8b"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "springfox-spring-webmvc-3.0.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/springfox-spring-webmvc-3.0.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:7ed22363fdfd651cd811c0b2391f16bddb91db8b"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "logback-classic",
+      "version" : "1.2.9",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "de212f6deebb4cf8b5c91853602db5ec"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7d495522b08a9a66084bf417e70eedf95ef706bc"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "logback-classic-1.2.9.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/logback-classic-1.2.9.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:7d495522b08a9a66084bf417e70eedf95ef706bc"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:logback-classic:1.2.9"
+    },
+    {
+      "group" : "org.hdrhistogram",
+      "name" : "HdrHistogram",
+      "version" : "2.1.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4b1acf3448b750cb485da7e37384fcd8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6eb7552156e0d517ae80cc2247be1427c8d90452"
+        }
+      ],
+      "purl" : "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.12",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "HdrHistogram-2.1.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/HdrHistogram-2.1.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:6eb7552156e0d517ae80cc2247be1427c8d90452"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.hdrhistogram:HdrHistogram:2.1.12"
+    },
+    {
+      "name" : "spring-data-jdbc-core-1.2.1.RELEASE",
+      "version" : "1.2.1.RELEASE",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b00cbd103177696295652f8bba6d15e6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "21ec04d691126d66eb16161a745f3e0f4b273451"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-data-jdbc-core-1.2.1.RELEASE.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-data-jdbc-core-1.2.1.RELEASE.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:21ec04d691126d66eb16161a745f3e0f4b273451"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.springframework.samples",
+      "name" : "spring-petclinic-rest",
+      "version" : "2.6.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "eceae3081347048fd509cab0e14a01ca24763d5f"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "c4de5398f6ef4dcf41ab97901e2e2421"
+        }
+      ],
+      "purl" : "pkg:maven/org.springframework.samples/spring-petclinic-rest@2.6.2",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.springframework.samples/spring-petclinic-rest"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/META-INF/maven/org.springframework.samples/spring-petclinic-rest/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.springframework.samples:spring-petclinic-rest:2.6.2"
+    },
+    {
+      "name" : "HikariCP-4.0.3",
+      "version" : "4.0.3",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e725642926105cd1bbf4ad7fdff5d5a9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "107cbdf0db6780a065f895ae9d8fbf3bb0e1c21f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "HikariCP-4.0.3.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/HikariCP-4.0.3.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:107cbdf0db6780a065f895ae9d8fbf3bb0e1c21f"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.openapitools",
+      "name" : "jackson-databind-nullable",
+      "version" : "0.2.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "53aceff9ce47d3db51f961024ab4d2b5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d069cce2528dae0475d5e4bd04f01017afe1e7cd"
+        }
+      ],
+      "purl" : "pkg:maven/org.openapitools/jackson-databind-nullable@0.2.1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jackson-databind-nullable-0.2.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jackson-databind-nullable-0.2.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:d069cce2528dae0475d5e4bd04f01017afe1e7cd"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.openapitools:jackson-databind-nullable:0.2.1"
+    },
+    {
+      "group" : "io.swagger",
+      "name" : "swagger-annotations",
+      "version" : "1.5.20",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "619f94ec2cfa0276622657810eada472"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "16051f93ce11ca489a5313775d825f82fcc2cd6c"
+        }
+      ],
+      "purl" : "pkg:maven/io.swagger/swagger-annotations@1.5.20",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "swagger-annotations-1.5.20.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/swagger-annotations-1.5.20.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:16051f93ce11ca489a5313775d825f82fcc2cd6c"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "io.swagger:swagger-annotations:1.5.20"
+    },
+    {
+      "name" : "spring-context-support",
+      "version" : "5.3.14",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d70c0a7610f419048ad5b73de4d83382"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "46292d1dbc02a0cc9a7850ec3165084a914da371"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-context-support-5.3.14.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-context-support-5.3.14.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:46292d1dbc02a0cc9a7850ec3165084a914da371"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "spring-security-web",
+      "version" : "5.6.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b0995946e226176aa1317a521d8c0463"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7c2a899cfa8c986170721fedf356a73f73ddcb23"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-security-web-5.6.1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-security-web-5.6.1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:7c2a899cfa8c986170721fedf356a73f73ddcb23"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "springfox-boot-starter",
+      "version" : "3.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "fc41878c600d280b1451a95f9786ccf6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5486365e263f8acca014b97efa50c3419d58e8f6"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "springfox-boot-starter-3.0.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/springfox-boot-starter-3.0.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:5486365e263f8acca014b97efa50c3419d58e8f6"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "Spring Boot Actuator AutoConfigure",
+      "version" : "2.6.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c852714ed573157de6cfa23ed7ee1ae7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "33fa927aa911ae9fd3275e378aa47fc33cfbae76"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-boot-actuator-autoconfigure-2.6.2.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/spring-boot-actuator-autoconfigure-2.6.2.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:33fa927aa911ae9fd3275e378aa47fc33cfbae76"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.hibernate.validator",
+      "name" : "hibernate-validator",
+      "version" : "6.2.0.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "59abb8e6d7c7590ae3bb9dd0685facd5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d6b0760dfffbf379cedd02f715ff4c9a2e215921"
+        }
+      ],
+      "purl" : "pkg:maven/org.hibernate.validator/hibernate-validator@6.2.0.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "hibernate-validator-6.2.0.Final.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/hibernate-validator-6.2.0.Final.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:d6b0760dfffbf379cedd02f715ff4c9a2e215921"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.hibernate.validator:hibernate-validator:6.2.0.Final"
+    },
+    {
+      "name" : "ClassGraph",
+      "version" : "4.8.83",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "cbc2329992d63ef0100735a2a1956238"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "07be289f451cedf9e35ed97caba3953226b4e6d9"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "classgraph-4.8.83.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/classgraph-4.8.83.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:07be289f451cedf9e35ed97caba3953226b4e6d9"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "swagger-models",
+      "version" : "1.5.20",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9a816507533880637936bee8c27b238e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "fb3a23bad80c5ed84db9dd150db2cba699531458"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "swagger-models-1.5.20.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/swagger-models-1.5.20.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:fb3a23bad80c5ed84db9dd150db2cba699531458"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:swagger-models:1.5.20"
+    },
+    {
+      "name" : "antlr-2.7.7",
+      "version" : "2.7.7",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f8f1352c52a4c6a500b597596501fc64"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "83cd2cd674a217ade95a4bb83a8a14f351f48bd0"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "antlr-2.7.7.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/antlr-2.7.7.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:83cd2cd674a217ade95a4bb83a8a14f351f48bd0"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "jakarta.xml.bind-api",
+      "version" : "2.3.3",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "61286918ca0192e9f87d1358aef718dd"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "48e3b9cfc10752fba3521d6511f4165bea951801"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jakarta.xml.bind-api-2.3.3.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/jakarta.xml.bind-api-2.3.3.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:48e3b9cfc10752fba3521d6511f4165bea951801"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:jakarta.xml.bind-api:2.3.3"
+    },
+    {
+      "name" : "slf4j-api",
+      "version" : "1.7.32",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "fbcf58513bc25b80f075d812aad3e3cf"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "cdcff33940d9f2de763bc41ea05a0be5941176c3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "slf4j-api-1.7.32.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/slf4j-api-1.7.32.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:cdcff33940d9f2de763bc41ea05a0be5941176c3"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:slf4j-api:1.7.32"
+    },
+    {
+      "name" : "springfox-bean-validators",
+      "version" : "3.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d31ba6678ddc89b330264383d910f0a8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "80c646fdebe5f2b2b337a5a686e540fee0b7304f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "springfox-bean-validators-3.0.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/springfox-bean-validators-3.0.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:80c646fdebe5f2b2b337a5a686e540fee0b7304f"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "mapstruct",
+      "version" : "1.4.1.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c2854ddd55b3600a58d0ed6110c3a8d8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9f87c0a8e5ee39ced552f6a257a425a4798600ca"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "mapstruct-1.4.1.Final.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/pet/./target/spring-petclinic-rest-2.6.2.jar!/BOOT-INF/lib/mapstruct-1.4.1.Final.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:9f87c0a8e5ee39ced552f6a257a425a4798600ca"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:mapstruct:1.4.1.Final"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "org.springframework.data:spring-data-commons:2.6.0",
+      "dependsOn" : [
+        "org.springframework:spring-core:null",
+        "org.springframework:spring-beans:null",
+        "org.springframework:spring-context:null",
+        "org.springframework:spring-expression:null",
+        "org.springframework:spring-tx:null",
+        "org.springframework:spring-oxm:null",
+        "com.fasterxml.jackson.core:jackson-databind:null",
+        "org.springframework:spring-web:null",
+        "org.springframework:spring-webflux:null",
+        "javax.servlet:javax.servlet-api:4.0.1",
+        "javax.annotation:javax.annotation-api:${javax-annotation-api}",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "joda-time:joda-time:${jodatime}",
+        "org.threeten:threetenbp:${threetenbp}",
+        "io.projectreactor:reactor-core:null",
+        "io.projectreactor:reactor-test:null",
+        "io.reactivex:rxjava:${rxjava}",
+        "io.reactivex:rxjava-reactive-streams:${rxjava-reactive-streams}",
+        "io.reactivex.rxjava2:rxjava:${rxjava2}",
+        "io.reactivex.rxjava3:rxjava:${rxjava3}",
+        "io.smallrye.reactive:mutiny:${smallrye-mutiny}",
+        "com.querydsl:querydsl-core:${querydsl}",
+        "com.querydsl:querydsl-apt:${querydsl}",
+        "com.querydsl:querydsl-collections:${querydsl}",
+        "javax.ejb:ejb-api:3.0",
+        "org.apache.geronimo.specs:geronimo-jcdi_2.0_spec:1.0.1",
+        "javax.interceptor:javax.interceptor-api:1.2.2",
+        "javax.enterprise:cdi-api:${cdi}",
+        "com.google.guava:guava:${guava}",
+        "io.vavr:vavr:${vavr}",
+        "javax.el:el-api:1.0",
+        "org.apache.openwebbeans:openwebbeans-se:${webbeans}",
+        "org.apache.xbean:xbean-asm9-shaded:${webbeans.xbean}",
+        "org.springframework.hateoas:spring-hateoas:${spring-hateoas}",
+        "org.springframework:spring-webmvc:null",
+        "com.sun.xml.bind:jaxb-impl:2.3.5",
+        "xmlunit:xmlunit:1.6",
+        "org.codehaus.groovy:groovy-all:2.4.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:null",
+        "org.jetbrains.kotlin:kotlin-reflect:null",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:null",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-reactive:null",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-reactor:null",
+        "org.jetbrains.kotlin:kotlin-test-junit5:${kotlin}",
+        "io.mockk:mockk:${mockk}",
+        "org.scala-lang:scala-library:${scala}",
+        "javax.transaction:javax.transaction-api:1.3",
+        "com.jayway.jsonpath:json-path:${jsonpath}",
+        "org.xmlbeam:xmlprojector:${xmlbeam}",
+        "de.schauderhaft.degraph:degraph-check:0.1.4",
+        "org.jmolecules.integrations:jmolecules-spring:${jmolecules-integration}"
+      ]
+    },
+    {
+      "ref" : "null:swagger-models:1.5.20",
+      "dependsOn" : [
+        "com.fasterxml.jackson.core:jackson-annotations:null",
+        "org.slf4j:slf4j-api:null",
+        "io.swagger:swagger-annotations:${project.parent.version}",
+        "org.testng:testng:null",
+        "com.openpojo:openpojo:null",
+        "org.powermock:powermock-module-testng:null",
+        "org.powermock:powermock-api-mockito:null",
+        "org.mockito:mockito-core:null",
+        "asm:asm:null"
+      ]
+    },
+    {
+      "ref" : "jakarta.activation:jakarta.activation-api:1.2.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "io.swagger:swagger-annotations:1.5.20",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "com.fasterxml.jackson.core:jackson-annotations:2.13.1",
+      "dependsOn" : [
+        "junit:junit:${version.junit}"
+      ]
+    },
+    {
+      "ref" : "com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.1",
+      "dependsOn" : [
+        "org.assertj:assertj-core:${assertj-core.version}",
+        "org.mockito:mockito-core:${mockito-core.version}"
+      ]
+    },
+    {
+      "ref" : "com.fasterxml.jackson.core:jackson-databind:2.13.1",
+      "dependsOn" : [
+        "com.fasterxml.jackson.core:jackson-annotations:${jackson.version.annotations}",
+        "com.fasterxml.jackson.core:jackson-core:${jackson.version.core}",
+        "org.powermock:powermock-core:${version.powermock}",
+        "org.powermock:powermock-module-junit4:${version.powermock}",
+        "org.powermock:powermock-api-mockito2:${version.powermock}",
+        "javax.measure:jsr-275:0.9.1"
+      ]
+    },
+    {
+      "ref" : "null:jul-to-slf4j:1.7.32",
+      "dependsOn" : [
+        "org.slf4j:slf4j-api:null",
+        "org.slf4j:slf4j-log4j12:${project.version}"
+      ]
+    },
+    {
+      "ref" : "org.glassfish.jaxb:txw2:2.3.5",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "com.fasterxml.jackson.core:jackson-core:2.13.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "org.jboss:jandex:2.2.3.Final",
+      "dependsOn" : [
+        "junit:junit:4.13.1",
+        "org.jboss.jandex:typeannotation-test:1.6",
+        "org.apache.ant:ant:1.9.15",
+        "net.bytebuddy:byte-buddy:1.10.3"
+      ]
+    },
+    {
+      "ref" : "org.springframework.data:spring-data-jpa:2.6.0",
+      "dependsOn" : [
+        "${project.groupId}:spring-data-commons:${springdata.commons}",
+        "org.springframework:spring-orm:null",
+        "org.springframework:spring-context:null",
+        "org.springframework:spring-aop:null",
+        "org.springframework:spring-tx:null",
+        "org.springframework:spring-beans:null",
+        "org.springframework:spring-instrument:null",
+        "org.springframework:spring-core:null",
+        "org.aspectj:aspectjweaver:${aspectj}",
+        "org.springframework:spring-aspects:null",
+        "org.hsqldb:hsqldb:2.5.1",
+        "mysql:mysql-connector-java:${mysql-connector-java}",
+        "org.testcontainers:mysql:null",
+        "org.postgresql:postgresql:${postgresql}",
+        "org.testcontainers:postgresql:null",
+        "org.threeten:threetenbp:${threetenbp}",
+        "io.vavr:vavr:${vavr}",
+        "org.eclipse.persistence:org.eclipse.persistence.jpa:${eclipselink}",
+        "${hibernate.groupId}:hibernate-core:${hibernate}",
+        "${hibernate.groupId}:hibernate-jpamodelgen:${hibernate}",
+        "com.querydsl:querydsl-apt:${querydsl}",
+        "com.querydsl:querydsl-jpa:${querydsl}",
+        "org.jmolecules.integrations:jmolecules-spring:${jmolecules-integration}",
+        "org.apache.geronimo.specs:geronimo-jcdi_2.0_spec:1.0.1",
+        "javax.interceptor:javax.interceptor-api:1.2.1",
+        "javax.enterprise:cdi-api:${cdi}",
+        "javax.annotation:javax.annotation-api:${javax-annotation-api}",
+        "org.apache.openwebbeans:openwebbeans-se:${webbeans}"
+      ]
+    },
+    {
+      "ref" : "org.springframework.samples:spring-petclinic-rest:2.6.2",
+      "dependsOn" : [
+        "org.springframework.boot:spring-boot-starter-actuator:null",
+        "org.springframework.boot:spring-boot-starter-aop:null",
+        "org.springframework.boot:spring-boot-starter-cache:null",
+        "org.springframework.boot:spring-boot-starter-data-jpa:null",
+        "org.springframework.boot:spring-boot-starter-jdbc:null",
+        "org.springframework.boot:spring-boot-starter-web:null",
+        "org.springframework.boot:spring-boot-starter-security:null",
+        "org.springframework.boot:spring-boot-starter-validation:null",
+        "org.hsqldb:hsqldb:null",
+        "mysql:mysql-connector-java:null",
+        "org.postgresql:postgresql:null",
+        "org.springframework.data:spring-data-jdbc-core:${spring-data-jdbc.version}",
+        "org.springframework.boot:spring-boot-starter-test:null",
+        "org.springframework.security:spring-security-test:null",
+        "com.fasterxml.jackson.core:jackson-core:null",
+        "com.fasterxml.jackson.core:jackson-databind:null",
+        "com.jayway.jsonpath:json-path:null",
+        "io.springfox:springfox-boot-starter:${springfox-swagger.version}",
+        "org.openapitools:jackson-databind-nullable:${jackson-databind-nullable.version}",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:null",
+        "org.mapstruct:mapstruct:${mapstruct.version}",
+        "org.mapstruct:mapstruct-processor:${mapstruct.version}",
+        "org.mockito:mockito-core:null",
+        "javax.xml.bind:jaxb-api:${jaxb-api.version}"
+      ]
+    },
+    {
+      "ref" : "null:spring-plugin-metadata:2.0.0.RELEASE",
+      "dependsOn" : [
+        "${project.groupId}:spring-plugin-core:${project.version}"
+      ]
+    },
+    {
+      "ref" : "null:swagger-annotations:2.1.2",
+      "dependsOn" : [
+        "jakarta.ws.rs:jakarta.ws.rs-api:null",
+        "org.testng:testng:null"
+      ]
+    },
+    {
+      "ref" : "org.jboss.logging:jboss-logging:3.4.2.Final",
+      "dependsOn" : [
+        "org.jboss.logmanager:jboss-logmanager:${version.org.jboss.logmanager}",
+        "log4j:log4j:${version.org.apache.log4j}",
+        "org.apache.logging.log4j:log4j-api:${version.org.apache.logging.log4j}",
+        "org.slf4j:slf4j-api:${version.org.sfl4j}",
+        "org.junit.jupiter:junit-jupiter:null",
+        "ch.qos.logback:logback-classic:${version.ch.qos.logback}",
+        "org.apache.logging.log4j:log4j-core:${version.org.apache.logging.log4j}"
+      ]
+    },
+    {
+      "ref" : "org.glassfish.jaxb:jaxb-runtime:2.3.5",
+      "dependsOn" : [
+        "jakarta.xml.bind:jakarta.xml.bind-api:null",
+        "jakarta.activation:jakarta.activation-api:null",
+        "${project.groupId}:txw2:null",
+        "com.sun.istack:istack-commons-runtime:null",
+        "org.jvnet.staxex:stax-ex:null",
+        "com.sun.xml.fastinfoset:FastInfoset:null",
+        "com.sun.activation:jakarta.activation:null",
+        "junit:junit:null"
+      ]
+    },
+    {
+      "ref" : "org.glassfish:jaxb-api:2.3.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "org.mapstruct:mapstruct-processor:1.4.1.Final",
+      "dependsOn" : [
+        "org.freemarker:freemarker:null",
+        "org.mapstruct.tools.gem:gem-api:null",
+        "${project.groupId}:mapstruct:null",
+        "org.eclipse.tycho:tycho-compiler-jdt:null",
+        "junit:junit:null",
+        "org.assertj:assertj-core:null",
+        "com.google.guava:guava:null",
+        "com.puppycrawl.tools:checkstyle:null",
+        "javax.inject:javax.inject:null",
+        "org.codehaus.plexus:plexus-container-default:null",
+        "org.springframework:spring-test:null",
+        "org.springframework:spring-beans:null",
+        "org.springframework:spring-context:null",
+        "joda-time:joda-time:null"
+      ]
+    },
+    {
+      "ref" : "com.sun.istack:istack-commons-runtime:3.0.12",
+      "dependsOn" : [
+        "jakarta.activation:jakarta.activation-api:null",
+        "junit:junit:null"
+      ]
+    },
+    {
+      "ref" : "null:mapstruct:1.4.1.Final",
+      "dependsOn" : [
+        "junit:junit:null",
+        "org.assertj:assertj-core:null"
+      ]
+    },
+    {
+      "ref" : "null:byte-buddy-dep:1.11.22",
+      "dependsOn" : [
+        "org.ow2.asm:asm:${version.asm}",
+        "org.ow2.asm:asm-commons:${version.asm}",
+        "net.java.dev.jna:jna:${jna.version}",
+        "net.java.dev.jna:jna-platform:${jna.version}",
+        "junit:junit:${version.junit}",
+        "org.mockito:mockito-core:${version.mockito}",
+        "org.ow2.asm:asm-util:${version.asm}",
+        "org.ow2.asm:asm-analysis:${version.asm}",
+        "${project.groupId}:byte-buddy-agent:${project.version}"
+      ]
+    },
+    {
+      "ref" : "org.openapitools:jackson-databind-nullable:0.2.1",
+      "dependsOn" : [
+        "com.fasterxml.jackson.core:jackson-databind:null",
+        "javax.validation:validation-api:2.0.1.Final",
+        "org.hibernate.validator:hibernate-validator:6.0.13.Final",
+        "org.glassfish:javax.el:3.0.1-b09"
+      ]
+    },
+    {
+      "ref" : "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.1",
+      "dependsOn" : [
+        "com.fasterxml.jackson.core:jackson-annotations:null"
+      ]
+    },
+    {
+      "ref" : "null:spring-plugin-core:2.0.0.RELEASE",
+      "dependsOn" : [
+        "org.springframework:spring-beans:${spring.version}",
+        "org.springframework:spring-context:${spring.version}",
+        "org.springframework:spring-aop:${spring.version}",
+        "org.springframework:spring-test:${spring.version}"
+      ]
+    },
+    {
+      "ref" : "org.latencyutils:LatencyUtils:2.0.3",
+      "dependsOn" : [
+        "junit:junit:4.10",
+        "org.hdrhistogram:HdrHistogram:2.1.8"
+      ]
+    },
+    {
+      "ref" : "null:logback-classic:1.2.9",
+      "dependsOn" : [
+        "ch.qos.logback:logback-core:null",
+        "org.slf4j:slf4j-api:${slf4j.version}",
+        "org.slf4j:slf4j-ext:${slf4j.version}",
+        "ch.qos.cal10n.plugins:maven-cal10n-plugin:${cal10n.version}",
+        "org.slf4j:log4j-over-slf4j:${slf4j.version}",
+        "org.slf4j:jul-to-slf4j:${slf4j.version}",
+        "log4j:log4j:1.2.17",
+        "dom4j:dom4j:null",
+        "javax.mail:mail:null",
+        "org.codehaus.janino:janino:null",
+        "org.slf4j:integration:${slf4j.version}",
+        "javax.servlet:javax.servlet-api:null",
+        "com.icegreen:greenmail:1.3",
+        "org.subethamail:subethasmtp:2.1.0",
+        "org.apache.felix:org.apache.felix.main:2.0.2",
+        "org.mockito:mockito-core:null"
+      ]
+    },
+    {
+      "ref" : "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "com.sun.activation:jakarta.activation:1.2.2",
+      "dependsOn" : [
+        "junit:junit:4.12"
+      ]
+    },
+    {
+      "ref" : "null:logback-core:1.2.9",
+      "dependsOn" : [
+        "org.codehaus.janino:janino:null",
+        "org.fusesource.jansi:jansi:null",
+        "javax.mail:mail:null",
+        "org.mockito:mockito-core:null",
+        "javax.servlet:javax.servlet-api:null",
+        "joda-time:joda-time:null"
+      ]
+    },
+    {
+      "ref" : "org.apache.logging.log4j:log4j-api:2.17.0",
+      "dependsOn" : [
+        "org.apache.felix:org.apache.felix.framework:null",
+        "org.osgi:org.osgi.core:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.junit.jupiter:junit-jupiter-migrationsupport:null",
+        "org.junit.jupiter:junit-jupiter-params:null",
+        "org.junit.jupiter:junit-jupiter-engine:null",
+        "org.assertj:assertj-core:null",
+        "org.eclipse.tycho:org.eclipse.osgi:null",
+        "org.apache.maven:maven-core:null",
+        "org.apache.commons:commons-lang3:null",
+        "com.fasterxml.jackson.core:jackson-core:null",
+        "com.fasterxml.jackson.core:jackson-databind:null"
+      ]
+    },
+    {
+      "ref" : "org.hdrhistogram:HdrHistogram:2.1.12",
+      "dependsOn" : [
+        "org.junit.jupiter:junit-jupiter-api:${junit.jupiter.version}",
+        "org.junit.jupiter:junit-jupiter-params:${junit.jupiter.version}",
+        "junit:junit:${junit.version}",
+        "org.junit.jupiter:junit-jupiter-engine:${junit.jupiter.version}",
+        "org.junit.vintage:junit-vintage-engine:${junit.vintage.version}"
+      ]
+    },
+    {
+      "ref" : "null:slf4j-api:1.7.32",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "org.hibernate.validator:hibernate-validator:6.2.0.Final",
+      "dependsOn" : [
+        "jakarta.validation:jakarta.validation-api:null",
+        "org.jboss.logging:jboss-logging:null",
+        "com.fasterxml:classmate:null",
+        "org.glassfish:jakarta.el:null",
+        "org.jboss.logging:jboss-logging-processor:null",
+        "org.jboss.logging:jboss-logging-annotations:null",
+        "jakarta.persistence:jakarta.persistence-api:null",
+        "joda-time:joda-time:null",
+        "com.thoughtworks.paranamer:paranamer:null",
+        "javax.money:money-api:null",
+        "org.testng:testng:null",
+        "${project.groupId}:hibernate-validator-test-utils:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.easymock:easymock:null",
+        "org.codehaus.groovy:groovy-jsr223:null",
+        "org.assertj:assertj-core:null",
+        "org.jboss.shrinkwrap:shrinkwrap-impl-base:null",
+        "org.javamoney:moneta:null",
+        "jakarta.annotation:jakarta.annotation-api:null",
+        "com.fasterxml.jackson.core:jackson-databind:null",
+        "com.fasterxml.jackson.core:jackson-annotations:null",
+        "net.bytebuddy:byte-buddy:null"
+      ]
+    },
+    {
+      "ref" : "org.yaml:snakeyaml:1.29",
+      "dependsOn" : [
+        "junit:junit:4.13.1",
+        "org.apache.velocity:velocity:1.6.2",
+        "joda-time:joda-time:2.10.1"
+      ]
+    },
+    {
+      "ref" : "null:jakarta.xml.bind-api:2.3.3",
+      "dependsOn" : [
+        "jakarta.activation:jakarta.activation-api:null"
+      ]
+    },
+    {
+      "ref" : "org.apache.logging.log4j:log4j-to-slf4j:2.17.0",
+      "dependsOn" : [
+        "org.slf4j:slf4j-api:null",
+        "org.apache.logging.log4j:log4j-api:null",
+        "ch.qos.logback:logback-core:null",
+        "ch.qos.logback:logback-classic:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.junit.jupiter:junit-jupiter-engine:null",
+        "org.hamcrest:hamcrest:null"
+      ]
+    },
+    {
+      "ref" : "null:byte-buddy:1.11.22",
+      "dependsOn" : [
+        "${project.groupId}:byte-buddy-dep:${project.version}",
+        "net.java.dev.jna:jna:${jna.version}",
+        "net.java.dev.jna:jna-platform:${jna.version}"
+      ]
+    },
+    {
+      "ref" : "null:swagger-models:2.1.2",
+      "dependsOn" : [
+        "com.fasterxml.jackson.core:jackson-core:null",
+        "com.fasterxml.jackson.core:jackson-databind:null",
+        "org.testng:testng:null",
+        "org.jmockit:jmockit:${jmockit-version}",
+        "com.fasterxml.jackson.core:jackson-annotations:null"
+      ]
+    }
+  ]
+}

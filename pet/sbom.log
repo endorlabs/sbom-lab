@@ -1,0 +1,62 @@
+Check prerequisites: OK
+
+1) Clone repo https://github.com/spring-petclinic/spring-petclinic-rest into folder pet
+   Checkout commit ee236caf798dde6ead7ab0726fb1cea96ca398ae
+
+2) Resolve dependencies declared in pet/./pom.xml
+
+   Raw text output in pet/2-deptree.txt contains the following deps:
+    -  99 compile
+    -   6 runtime
+    -   0 provided
+    -   0 system
+    -  26 test
+
+   SBOM true-positives (TP), false-negatives (FN) and recall will be computed for deps with scope(s): compile,runtime
+   pet/2-exp-purls.txt - 105 PURLs have such scope(s)
+
+3) Create SBOMs with directory
+
+   Invoke CycloneDX (cycl): OK
+   + mvn -DoutputFormat=json -DoutputDirectory=pet -DoutputName=3-git-cycl-sbom org.cyclonedx:cyclonedx-maven-plugin:2.7.5:makeBom -f pet/pom.xml > pet/3-git-cycl-sbom.log 2>&1
+   pet/3-git-cycl-purls.txt - Contains 105 component PURLs in SBOM pet/3-git-cycl-sbom.json (TP = 105, FN =   0, recall = 1.00)
+
+   Invoke Syft: OK
+   + ./bin/syft packages dir:pet --file pet/3-git-syft-sbom.json -o cyclonedx-json > pet/3-git-syft-sbom.log 2>&1
+   pet/3-git-syft-purls.txt - Contains  25 component PURLs in SBOM pet/3-git-syft-sbom.json (TP =   5, FN = 100, recall = 0.05)
+
+   Invoke Trivy (triv): OK
+   + ./bin/trivy fs --format cyclonedx --output pet/3-git-triv-sbom.json pet > pet/3-git-triv-sbom.log 2>&1
+   pet/3-git-triv-purls.txt - Contains  97 component PURLs in SBOM pet/3-git-triv-sbom.json (TP =  94, FN =  11, recall = 0.90)
+
+4) Call 'mvn package' to create JAR
+
+   Created JAR pet/./target/spring-petclinic-rest-2.6.2.jar
+   pet/4-jartf.txt - Number of files in BOOT-INF/lib = 94
+
+5) Create SBOMs with JAR
+
+   Invoke jbom: OK
+   + java -jar ./bin//jbom.jar --file=pet/./target/spring-petclinic-rest-2.6.2.jar --outputDir=pet > pet/5-pkg-jbom-sbom.log 2>&1
+   pet/5-pkg-jbom-purls.txt - Contains  34 component PURLs in SBOM pet/5-pkg-jbom-sbom.json (TP =  25, FN =  80, recall = 0.24)
+
+   Invoke Syft: OK
+   + ./bin/syft packages file:pet/./target/spring-petclinic-rest-2.6.2.jar --file pet/5-pkg-syft-sbom.json -o cyclonedx-json > pet/5-pkg-syft-sbom.log 2>&1
+   pet/5-pkg-syft-purls.txt - Contains  95 component PURLs in SBOM pet/5-pkg-syft-sbom.json (TP =  36, FN =  69, recall = 0.34)
+
+6) Create SBOMs with Docker image springcommunity/spring-petclinic-rest:2.6.2
+
+   Invoke Syft: OK
+   + ./bin/syft packages springcommunity/spring-petclinic-rest:2.6.2 --file pet/6-img-syft-sbom.json -o cyclonedx-json > pet/6-img-syft-sbom.log 2>&1
+   pet/6-img-syft-purls.txt - Contains 147 component PURLs in SBOM pet/6-img-syft-sbom.json (TP =  37, FN =  68, recall = 0.35)
+
+   Invoke Trivy (triv): OK
+   + ./bin/trivy image --format cyclonedx --output pet/6-img-triv-sbom.json springcommunity/spring-petclinic-rest:2.6.2 > pet/6-img-triv-sbom.log 2>&1
+   pet/6-img-triv-purls.txt - Contains 126 component PURLs in SBOM pet/6-img-triv-sbom.json (TP = 104, FN =   1, recall = 0.99)
+
+7) Create runtime SBOMs
+
+   Started executable JAR pet/./target/spring-petclinic-rest-2.6.2.jar with pid 2663, waiting 10 secs before attaching jbom...
+   pet/7-run-jbom-purls.txt - Contains  44 component PURLs in SBOM pet/7-run-jbom-sbom.json (TP =  25, FN =  80, recall = 0.24)
+
+8) No SBOM provided with --sbom

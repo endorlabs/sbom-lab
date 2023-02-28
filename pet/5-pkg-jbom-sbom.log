@@ -1,0 +1,17 @@
+2023-02-27 09:38:24:946 TRACE --- [jbom] 
+2023-02-27 09:38:24:946 TRACE --- [jbom]                       _ __
+2023-02-27 09:38:24:946 TRACE --- [jbom]                      (_) /_  ____  ____ ___
+2023-02-27 09:38:24:946 TRACE --- [jbom]                     / / __ \/ __ \/ __ `__ \
+2023-02-27 09:38:24:946 TRACE --- [jbom]                    / / /_/ / /_/ / / / / / /
+2023-02-27 09:38:24:946 TRACE --- [jbom]                 __/ /_.___/\____/_/ /_/ /_/
+2023-02-27 09:38:24:946 TRACE --- [jbom]                /___/
+2023-02-27 09:38:24:946 TRACE --- [jbom] 
+2023-02-27 09:38:24:946 TRACE --- [jbom]      by Contrast Security - https://contrastsecurity.com
+2023-02-27 09:38:24:946 TRACE --- [jbom] 
+2023-02-27 09:38:24:946 TRACE --- [jbom]       jbom generates SBOMs for all JVMs running on a host
+2023-02-27 09:38:24:946 TRACE --- [jbom]          https://github.com/Contrast-Security-OSS/jbom
+2023-02-27 09:38:24:946 TRACE --- [jbom] 
+2023-02-27 09:38:24:946 TRACE --- [jbom] Analyzing file pet/./target/spring-petclinic-rest-2.6.2.jar
+2023-02-27 09:38:26:728 TRACE --- [jbom] Saving SBOM with 95 components to pet/jbom-spring-petclinic-rest-2.6.2.json
+2023-02-27 09:38:26:850 TRACE --- [jbom] 
+2023-02-27 09:38:26:850 TRACE --- [jbom] jbom complete

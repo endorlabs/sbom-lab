@@ -1,0 +1,31 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< org.springframework.samples:spring-petclinic-rest >----------
+[INFO] Building spring-petclinic-rest 2.6.2
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- cyclonedx-maven-plugin:2.7.5:makeBom (default-cli) @ spring-petclinic-rest ---
+[INFO] CycloneDX: Parameters
+[INFO] ------------------------------------------------------------------------
+[INFO] schemaVersion          : 1.4
+[INFO] includeBomSerialNumber : true
+[INFO] includeCompileScope    : true
+[INFO] includeProvidedScope   : true
+[INFO] includeRuntimeScope    : true
+[INFO] includeTestScope       : false
+[INFO] includeSystemScope     : true
+[INFO] includeLicenseText     : false
+[INFO] outputFormat           : json
+[INFO] outputName             : 3-git-cycl-sbom
+[INFO] ------------------------------------------------------------------------
+[INFO] CycloneDX: Resolving Dependencies
+[INFO] CycloneDX: Creating BOM
+[INFO] CycloneDX: Writing BOM (JSON): /pet/target/3-git-cycl-sbom.json
+[INFO] CycloneDX: Validating BOM (JSON): /pet/target/3-git-cycl-sbom.json
+[WARNING] Unknown keyword additionalItems - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.095 s
+[INFO] Finished at: 2023-02-27T09:38:17+01:00
+[INFO] ------------------------------------------------------------------------
