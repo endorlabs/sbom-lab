@@ -1,2 +1,4 @@
 .DS_Store
-bin/*
+bin/syft
+bin/trivy
+bin/jbom.jar

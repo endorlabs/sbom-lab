@@ -116,6 +116,31 @@ Maven projects that do not use the default `project.build.directory` (target) or
 whose JARs require additional system properties when started with `java -jar`
 require further script adjustments.
 
+## Adding SBOM generators
+
+To add a new SBOM generator, it is sufficient to invoke it with function
+`run_sbom_generator` in one of the folowing functions, which correspond to the
+different lifecycle stages: `3_sbom_after_clone`, `5_sbom_after_package`,
+`6_sbom_with_image` and `7_sbom_at_runtime`.
+
+To follow the existing naming convention, the CycloneDX SBOM should be saved in
+JSON format to a file `<step>-<stage>-<tool>-sbom.json`, whereby
+- `<step>-<stage>` should be one of `3-git`, `5-pkg`, `6-img` or `7-run`
+- `<tool>` should be a short name of the tool
+
+The PURLs will be extracted into a text file `<txt>` by calling function
+`find_purls_in_json_sbom <json> <txt>`, which will also determine TP, FN and
+recall.
+
+For example, the following code snippet shows the invocation of Trivy in
+`6_sbom_with_image`:
+
+```
+# Syft
+run_sbom_generator "Syft" "./bin/syft packages $image --file $dir/6-img-syft-sbom.json -o cyclonedx-json > $dir/6-img-syft-sbom.log 2>&1"
+find_purls_in_json_sbom "$dir/6-img-syft-sbom.json" "$dir/6-img-syft-purls.txt"
+```
+
 ## Background
 
 The shell script extract sets of components from a Java/Maven project on one
