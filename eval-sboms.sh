@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -eo pipefail
+
 repo=https://github.com/spring-petclinic/spring-petclinic-rest
 commit=ee236caf798dde6ead7ab0726fb1cea96ca398ae     # Commit or tag to check out
 name=spring-petclinic-rest
@@ -44,7 +46,7 @@ function help() {
     printf -- "Each SBOM is compared with the Maven project's dependencies to establish\n"
     printf -- "true-positive (TP) SBOM components, false-negatives (FN) and SBOM recall.\n"
     printf -- "${WHITE}Important${RESET}: This happens only on the basis of PURLs obtained from the JSON\n"
-    printf    "SBOM and PURLs constructed from Maven deps with scopes: %s\n\n" "$scopes_text"
+    printf -- "SBOM and PURLs constructed from Maven deps with scopes: %s\n\n" "$scopes_text"
     printf -- "Create a copy of this script and adjust lines 3-10 to scan other projects.\n\n"
     printf -- "Feedback \xF0\x9F\x91\x89 https://github.com/endorlabs/sbom-lab \n"
 }
@@ -150,7 +152,7 @@ function 2_deptree() {
     printf "\n   Raw text output in ${WHITE}%s${RESET} contains the following deps:\n" "$dir/2-deptree.txt"
     all_mvn_scopes=("compile" "runtime" "provided" "system" "test")
     for scope in "${all_mvn_scopes[@]}"; do
-        count=$(grep ":$scope" "$dir/2-deptree.txt" -c)
+        count=$(grep ":$scope" "$dir/2-deptree.txt" -c || test $? = 1) # test avoids exit code 1 if given scope is not found by grep
         printf "    - ${WHITE}%3d %s${RESET}\n" "$count" "$scope"
     done
     

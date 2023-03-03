@@ -132,7 +132,7 @@ The PURLs will be extracted into a text file `<txt>` by calling function
 `find_purls_in_json_sbom <json> <txt>`, which will also determine TP, FN and
 recall.
 
-For example, the following code snippet shows the invocation of Trivy in
+For example, the following code snippet shows the invocation of Syft in
 `6_sbom_with_image`:
 
 ```
